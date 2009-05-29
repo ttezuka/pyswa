@@ -13,7 +13,7 @@ class PySwa:
         list = []
 
         # Load request string
-        io = StringIO.StringIO(src)
+        io = StringIO.StringIO(requestString)
 
         mcnt = 0
         lob = ""
